@@ -6,7 +6,7 @@ from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 # Token do seu bot (SUBSTITUA pelo seu token do BotFather)
-TOKEN = "SEU_TOKEN_AQUI"
+TOKEN = "8476552838:AAGhs2dtuuNlBo8M-RMVaDlSKd7lKidOZOw"
 
 # Arquivo para salvar dados
 DATA_FILE = "financas.json"
@@ -254,4 +254,5 @@ def main():
     application.run_polling()
 
 if __name__ == "__main__":
+
     main()
