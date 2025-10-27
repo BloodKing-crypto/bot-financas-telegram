@@ -1,2 +1,0 @@
-cd ~
-echo "python-telegram-bot==20.7" > requirements.txt
